@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@font-face {
+  font-family: "NeueMontreal-Regular";
+  src: url("../fonts/NeueMontreal-Regular.ttf");
+}
+@font-face {
+  font-family: "FoundersGrotesk-Semibold";
+  src: url("../fonts/FoundersGrotesk-Semibold.ttf");
+}
+/* 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.nav-a {
+  font-family: "NeueMontreal-Regular";
+}
+.landingPage-h1 {
+  font-family: "FoundersGrotesk-Semibold";
+}
